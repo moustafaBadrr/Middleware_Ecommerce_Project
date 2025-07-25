@@ -5,5 +5,6 @@ namespace Ecommerce.Infrastructure.Interfaces
     public interface IProductService
     {
         public List<Products> GetProducts();
-    }
+		//public List<Orders> GetOrders();
+	}
 }
